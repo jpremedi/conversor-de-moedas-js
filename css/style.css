@@ -1,0 +1,23 @@
+.menu {
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 0px 0px white, -1px 0px 0px white, 0px 1px 0px white, 0px -1px 0px white;
+}
+
+p {
+    font-size: x-large;
+    color: black;
+    text-shadow: 1px 0px 0px white, -1px 0px 0px white, 0px 1px 0px white, 0px -1px 0px white;
+}
+
+.botao {
+    margin-top: 40px;
+}
+
+.reais {
+    margin-top: 30px;
+}

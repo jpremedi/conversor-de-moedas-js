@@ -14,7 +14,25 @@
 
 <body>
     <main class="container">
-        <h1>Calculadora de dólar para reais</h1>
+
+        <div class="menu">
+            <h1>Calculadora de dólar para reais</h1>
+            <form>
+                <p>
+                    <label for="numero1">Dólar</label>
+                    <input type="number" id="numero1">
+                </p>
+
+                <p class="botao">
+                    <button type="button" onclick="Conversor();">Converter</button>
+                </p>
+
+                <p class="reais">
+                    <label for="numero2">Reais</label>
+                    <input type="number" id="numero2">
+                </p>
+            </form>
+        </div>
     </main>
 
     <script src="bootstrap-5/bootstrap.bundle.min.js"></script>
